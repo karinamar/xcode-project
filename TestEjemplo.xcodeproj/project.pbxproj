@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A626DF61DABBA9400AE9BF5 /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A626DF51DABBA9400AE9BF5 /* ViewControllerTest.m */; };
 		9AB0628D1DA2812800DC6CAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0628C1DA2812800DC6CAE /* main.m */; };
 		9AB062901DA2812800DC6CAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0628F1DA2812800DC6CAE /* AppDelegate.m */; };
 		9AB062931DA2812800DC6CAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB062921DA2812800DC6CAE /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		9AB0629B1DA2812800DC6CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB062991DA2812800DC6CAE /* LaunchScreen.storyboard */; };
 		9AB062A61DA2812900DC6CAE /* TestEjemploTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB062A51DA2812900DC6CAE /* TestEjemploTests.m */; };
 		9AB062B11DA2812900DC6CAE /* TestEjemploUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB062B01DA2812900DC6CAE /* TestEjemploUITests.m */; };
+		9AB062BF1DA281A200DC6CAE /* CalculadoraTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB062BE1DA281A200DC6CAE /* CalculadoraTest.m */; };
+		9AB062E81DA394A700DC6CAE /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB062E71DA394A700DC6CAE /* Calculadora.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A626DF51DABBA9400AE9BF5 /* ViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
 		9AB062881DA2812800DC6CAE /* TestEjemplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEjemplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB0628C1DA2812800DC6CAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AB0628E1DA2812800DC6CAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		9AB062AC1DA2812900DC6CAE /* TestEjemploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEjemploUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB062B01DA2812900DC6CAE /* TestEjemploUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEjemploUITests.m; sourceTree = "<group>"; };
 		9AB062B21DA2812900DC6CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB062BE1DA281A200DC6CAE /* CalculadoraTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculadoraTest.m; sourceTree = "<group>"; };
+		9AB062E61DA394A700DC6CAE /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculadora.h; sourceTree = "<group>"; };
+		9AB062E71DA394A700DC6CAE /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculadora.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +117,8 @@
 				9AB062991DA2812800DC6CAE /* LaunchScreen.storyboard */,
 				9AB0629C1DA2812800DC6CAE /* Info.plist */,
 				9AB0628B1DA2812800DC6CAE /* Supporting Files */,
+				9AB062E61DA394A700DC6CAE /* Calculadora.h */,
+				9AB062E71DA394A700DC6CAE /* Calculadora.m */,
 			);
 			path = TestEjemplo;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			children = (
 				9AB062A51DA2812900DC6CAE /* TestEjemploTests.m */,
 				9AB062A71DA2812900DC6CAE /* Info.plist */,
+				9AB062BE1DA281A200DC6CAE /* CalculadoraTest.m */,
 			);
 			path = TestEjemploTests;
 			sourceTree = "<group>";
@@ -136,6 +146,7 @@
 			children = (
 				9AB062B01DA2812900DC6CAE /* TestEjemploUITests.m */,
 				9AB062B21DA2812900DC6CAE /* Info.plist */,
+				9A626DF51DABBA9400AE9BF5 /* ViewControllerTest.m */,
 			);
 			path = TestEjemploUITests;
 			sourceTree = "<group>";
@@ -276,6 +287,7 @@
 				9AB062931DA2812800DC6CAE /* ViewController.m in Sources */,
 				9AB062901DA2812800DC6CAE /* AppDelegate.m in Sources */,
 				9AB0628D1DA2812800DC6CAE /* main.m in Sources */,
+				9AB062E81DA394A700DC6CAE /* Calculadora.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB062A61DA2812900DC6CAE /* TestEjemploTests.m in Sources */,
+				9AB062BF1DA281A200DC6CAE /* CalculadoraTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A626DF61DABBA9400AE9BF5 /* ViewControllerTest.m in Sources */,
 				9AB062B11DA2812900DC6CAE /* TestEjemploUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +521,7 @@
 				9AB062B71DA2812900DC6CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB062B81DA2812900DC6CAE /* Build configuration list for PBXNativeTarget "TestEjemploTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				9AB062BA1DA2812900DC6CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB062BB1DA2812900DC6CAE /* Build configuration list for PBXNativeTarget "TestEjemploUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				9AB062BD1DA2812900DC6CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
